@@ -1,0 +1,39 @@
+.productListingItem {
+    display: inline-block;
+    width: 500px;
+}
+
+.productListingItem img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.productListingItemText {
+    display: inline-block;
+    width: 250px;
+    text-align: right;
+    vertical-align: top;
+}
+
+.cartItemQuantity {
+    margin-top: 5px;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+.cartItemQuantity span {
+    width: 30px;
+    display: inline-block;
+}
+
+.cartTotal {
+    margin-top: 15px;
+    margin-left: 525px;
+    text-align: right;
+    display: inline-block;
+}
+
+.colourFilter {
+    margin: 10px 0;
+}
