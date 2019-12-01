@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductListingItem component ProductListingItem matches the snapshot 1`] = `
+<div
+  className="productListingItem"
+>
+  <img
+    alt="trousers"
+    src="image url"
+  />
+  <div
+    className="productListingItemText"
+  >
+    <div>
+      trousers
+    </div>
+    <div>
+      £
+      9.00
+    </div>
+  </div>
+</div>
+`;

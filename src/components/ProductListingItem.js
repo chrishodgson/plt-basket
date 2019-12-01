@@ -1,4 +1,6 @@
 import React from 'react';
+import { create } from "react-test-renderer";
+import { productListingItem } from '../../src/components/ProductListingItem'
 
 export default ( {product: {img, name, price}} ) => {
     return (

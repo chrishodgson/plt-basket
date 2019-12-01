@@ -16,7 +16,6 @@ class ColourFilter extends Component {
 
     renderFields() {
         return (
-            <Field name="colour" component="select" className="colourFilter">
                 <option value="all">-- Choose a colour --</option>
                 {this.getColours().map(colour => <option key={colour} value={colour}>{colour}</option>)}
             </Field>
