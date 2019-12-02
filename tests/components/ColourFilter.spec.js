@@ -5,7 +5,7 @@ import Adapter from 'enzyme-adapter-react-16'
 
 import { ColourFilter } from "../../src/components/ColourFilter";
 
-jest.mock('redux-form/lib/Field', () => 'field');
+//jest.mock('redux-form/lib/Field', () => 'field');
 
 Enzyme.configure({ adapter: new Adapter() });
 
