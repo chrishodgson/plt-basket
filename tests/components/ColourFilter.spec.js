@@ -14,7 +14,7 @@ describe("ColourFilter component", () => {
     const products = [ {colour:'red'}, {colour:'yellow'}, {colour:'red'} ];
 
     const shallowSetup = () => {
-        const props = {handleSubmit: jest.fn(), products};
+        const props = { handleSubmit: jest.fn(), products };
 
         const enzymeWrapper = shallow(<ColourFilter {...props} />);
 
@@ -33,9 +33,13 @@ describe("ColourFilter component", () => {
         expect(props.handleSubmit.mock.calls.length).toBe(1);
     });
 
-    it('should render correct number of colours', () => {
+    it('should render correct colour options', () => {
         const { enzymeWrapper } = shallowSetup(),
             options = enzymeWrapper.find('option');
+
         expect(options.length).toBe(3);
+        expect(options.first().prop('value')).toBe('all');
+        expect(options.at(1).prop('value')).toBe('red');
+        expect(options.last().prop('value')).toBe('yellow');
     });
 });
