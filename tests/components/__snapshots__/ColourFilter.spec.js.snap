@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ColourFilter component Matches the snapshot 1`] = `
+<form>
+  <field
+    className="colourFilter"
+    component="select"
+    name="colour"
+  >
+    <option
+      value="all"
+    >
+      -- Choose a colour --
+    </option>
+    <option
+      value="red"
+    >
+      red
+    </option>
+    <option
+      value="yellow"
+    >
+      yellow
+    </option>
+  </field>
+</form>
+`;
